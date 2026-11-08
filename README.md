@@ -2,10 +2,21 @@
 
 Official standalone downloads for the Zo command-line interface.
 
-The first standalone release is being prepared. Published versions will appear on the [Releases page](https://github.com/zocomputer/zo-cli/releases).
+## Install
 
-Each release will include executables with a bundled Node.js runtime for macOS and Linux on arm64 and x64, plus an installer, SHA-256 checksums, and release metadata. macOS requires version 15 or later; Linux requires glibc 2.35 or later.
+On macOS 15+ or Linux with glibc 2.35+, using arm64 or x64:
 
-This repository holds release downloads and metadata. Development takes place in Zo's private source repository.
+```sh
+curl -fsSL https://zo.computer/install.sh | sh
+export PATH="$HOME/.local/bin:$PATH"
+zo --version
+zo login
+```
+
+The executable includes Node.js; you do not need to install Node or npm. Sign-in requires a Zo workspace with System API access enabled.
+
+Each [release](https://github.com/zocomputer/zo-cli/releases) contains four platform archives, the installer, SHA-256 checksums, and release metadata. macOS executables are Developer ID signed and notarized. Published releases are immutable.
+
+This repository holds downloads and release metadata. Development takes place in Zo's private source repository.
 
 Visit [Zo](https://zo.computer) to learn more.

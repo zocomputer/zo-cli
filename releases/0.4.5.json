@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "source_sha": "6d928b3a4c2fc9915114066681993bb35d45dd00",
+  "qualification_run_id": "46021388157",
+  "qualification_url": "https://github.com/zocomputer/hostagent/actions/runs/46021388157",
+  "cli_version": "0.4.5",
+  "sdk_version": "0.3.5",
+  "node": "v26.13.1",
+  "packages": [
+    {
+      "name": "@zocomputer/system-api",
+      "version": "0.3.5",
+      "file": "zocomputer-system-api-0.3.5.tgz",
+      "sha256": "c0f8e69ca5fd9419ed74e70f3f24156023ddd9bb3cbe9539700ee7b271e69e46",
+      "integrity": "sha512-V5GzKiB0kktVClrSm9zlnCF96IviBLrRlpcW8IWKtLBaeFMHrey7d2ON9vChxK145LK8JHe9z7nujAVCZ8MJ5A=="
+    },
+    {
+      "name": "@zocomputer/cli",
+      "version": "0.4.5",
+      "file": "zocomputer-cli-0.4.5.tgz",
+      "sha256": "fddddf6f90b271d03cb6a8f551d197174663846d0502651af671247d6bfabf58",
+      "integrity": "sha512-i+h1tkNqHXBw2Yb8CTbRY0bIcWV5+/y53aLfGWqXUwDhovNC3UdBVpaDYEPg3zlbjEjzqskL1XQx3zDZSLdpDw=="
+    }
+  ],
+  "binaries": [
+    {
+      "schema_version": 1,
+      "installer_sha256": "bc3e883c688e4140792a9bd51e677e861862b3df79b3c8c8755ebeb8cff622c2",
+      "source_sha": "6d928b3a4c2fc9915114066681993bb35d45dd00",
+      "cli_version": "0.4.5",
+      "sdk_version": "0.3.5",
+      "node": "v26.13.1",
+      "target": "darwin-arm64",
+      "esbuild": "0.28.2",
+      "file": "zo-0.4.5-darwin-arm64.tar.gz",
+      "sha256": "17f5eeff0895f98c49f0d9f019f0a87ed7e654e2e429309ef4ac862ecf3f20da",
+      "size": 45067685,
+      "requirements": {
+        "macos": "15"
+      },
+      "signing": {
+        "kind": "developer-id",
+        "team_id": "C8HFK26MUS",
+        "notarization_id": "6e748dbd-1b46-4c71-a575-e8d17dd848c9",
+        "status": "Accepted"
+      }
+    },
+    {
+      "schema_version": 1,
+      "installer_sha256": "bc3e883c688e4140792a9bd51e677e861862b3df79b3c8c8755ebeb8cff622c2",
+      "source_sha": "6d928b3a4c2fc9915114066681993bb35d45dd00",
+      "cli_version": "0.4.5",
+      "sdk_version": "0.3.5",
+      "node": "v26.13.1",
+      "target": "darwin-x64",
+      "esbuild": "0.28.2",
+      "file": "zo-0.4.5-darwin-x64.tar.gz",
+      "sha256": "0b3de10f433a732a1de43bddcf3e70ba84f81a36cd3c4bb0eed3144de56a28c6",
+      "size": 46611302,
+      "requirements": {
+        "macos": "15"
+      },
+      "signing": {
+        "kind": "developer-id",
+        "team_id": "C8HFK26MUS",
+        "notarization_id": "472b9ff2-cdfc-4a0e-bf54-13a91c0261fb",
+        "status": "Accepted"
+      }
+    },
+    {
+      "schema_version": 1,
+      "installer_sha256": "bc3e883c688e4140792a9bd51e677e861862b3df79b3c8c8755ebeb8cff622c2",
+      "source_sha": "6d928b3a4c2fc9915114066681993bb35d45dd00",
+      "cli_version": "0.4.5",
+      "sdk_version": "0.3.5",
+      "node": "v26.13.1",
+      "target": "linux-arm64",
+      "esbuild": "0.28.2",
+      "file": "zo-0.4.5-linux-arm64.tar.gz",
+      "sha256": "f01be95a6295179054389deba13c7e76486e1fa906af73bb4421d905da122ee8",
+      "size": 47371564,
+      "requirements": {
+        "glibc": "2.35"
+      },
+      "signing": {
+        "kind": "none"
+      }
+    },
+    {
+      "schema_version": 1,
+      "installer_sha256": "bc3e883c688e4140792a9bd51e677e861862b3df79b3c8c8755ebeb8cff622c2",
+      "source_sha": "6d928b3a4c2fc9915114066681993bb35d45dd00",
+      "cli_version": "0.4.5",
+      "sdk_version": "0.3.5",
+      "node": "v26.13.1",
+      "target": "linux-x64",
+      "esbuild": "0.28.2",
+      "file": "zo-0.4.5-linux-x64.tar.gz",
+      "sha256": "c3b599b02adc9e06c17aa607c3dbb357bcad18fea46f2e899072edc759b3e5f2",
+      "size": 47632481,
+      "requirements": {
+        "glibc": "2.35"
+      },
+      "signing": {
+        "kind": "none"
+      }
+    }
+  ],
+  "installer_sha256": "bc3e883c688e4140792a9bd51e677e861862b3df79b3c8c8755ebeb8cff622c2"
+}
